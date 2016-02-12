@@ -1,0 +1,239 @@
+\documentclass[12pt,a4paper,finnish,oneside]{article}
+
+% Valitse 'input encoding':
+%\usepackage[latin1]{inputenc} % merkistökoodaus, jos ISO-LATIN-1:tä.
+\usepackage[utf8]{inputenc}   % merkistökoodaus, jos käytetään UTF8:a
+% Valitse 'output/font encoding':
+%\usepackage[T1]{fontenc}      % korjaa ääkkösten tavutusta, bittikarttana
+\usepackage{ae,aecompl}       % ed. lis. vektorigrafiikkana bittikartan sijasta
+% Kieli- ja tavutuspaketit:
+\usepackage[finnish]{babel}
+% Muita paketteja:
+% \usepackage{amsmath}   % matematiikkaa
+\usepackage{url}       % \url{...}
+
+% Kappaleiden erottaminen ja sisennys
+\parskip 1ex
+\parindent 0pt
+\evensidemargin 0mm
+\oddsidemargin 0mm
+\textwidth 159.2mm
+\topmargin 0mm
+\headheight 0mm
+\headsep 0mm
+\textheight 246.2mm
+
+\pagestyle{plain}
+
+% ---------------------------------------------------------------------
+
+\begin{document}
+
+% Otsikkotiedot: muokkaa tähän omat tietosi
+
+\title{TIK.kand tutkimussuunnitelma:\\[5mm]
+Sisätilapaikannuksen
+sovellukset kaupan alalla}
+
+\author{Ville Ojaniemi\\
+Aalto-yliopisto\\
+\url{ville.ojaniemi@aalto.fi}}
+
+\date{\today}
+
+\maketitle
+
+
+\vspace{10mm}
+
+% MUOKKAA TÄHÄN. Jos tarvitset tähän viitteitä, käytä
+% tässä dokumentissa numeroviitejärjestelmää komennolla \cite{kahva}.
+%
+% Paljon kandidaatintöitä ohjanneen Vesa Hirvisalon tarjoama 
+% sabluuna. Kursivoidut osat \emph{...} ovat kurssin henkilökunnan
+% lisäämiä. 
+
+\textbf{Kandidaatintyön nimi:} Sisätilapaikannuksen sovellukset kaupan alalla
+
+\textbf{Työn tekijä:} Ville Ojaniemi
+
+\textbf{Ohjaaja:} Sakari Luukkainen
+
+
+\section{Tiivistelmä tutkimuksesta}
+
+ Aiheen tarkoituksena on kuvata erilaisia tekniikoita ja sovelluksia sisätilapaikannukseen liittyen. Tarkoituksena on myös tarkastella ja vertailla niiden vahvuuksia ja heikkouksia sekä tehdä johtopäätöksiä siitä mitkä järjestelmät ja sovellukset mahdollisesti yleistyvät tulevaisuudessa. Sovellusten tutkimisessa pääpaino tulee olemaan kaupan alan sovelluksissa, erityisesti täsmämainonnassa ja -markkinoinnissa.
+
+\section{Tavoitteet ja näkökulmat}
+
+Tavoitteina työlle on selvittää sisätilapaikannuksen tekniikoita, niiden vahvuuksia ja heikkouksia sekä tutkia sisätilapaikannuksen sovelluksia.Tavoitteena on myös luoda uskottava arvio sisätilapaikannuksen tulevaisuudesta. Onko tulevaisuudessa yksi vallitseva sisätilapaikannustekniikka vai onko valloilla monta erilaista tekniikkaa yhtäaikaa. Sovelluksia tarkastellaan pääasiassa kaupan alan näkökulmasta. Kaupan alan sovelluksista erityisesti täsmämainonnan ja markkinoinnin näkökulmasta.
+
+%Mitä haluat saada selville? Mitkä ovat keskeisiä kysymyksiä? Mistä
+%näkökulmasta asiaa tarkastellaan?
+
+%Tutkimuskysymystä kannattaa siis rajata ja tarkentaa sekä huomioida
+%näkökulman merkitys. Ts. jänikset eläintieteen kannalta ovat eri aihe
+%kuin jänikset metsästyksen näkökulmasta.
+
+\section{Tutkimusmateriaali}
+
+Aiheesta löytyy useampia tieteellisiä artikkeleita ja suurempia teoksia joissa on osuus liittyen tämän työn aiheisiin. Käytännössä kaikki materiaali on englanniksi, mikä luo omia haasteita ainakin erilaisten termien kääntäminen suomeksi voi olla haasteellista.
+
+Materiaalia tuntuu löytyvän riittävästi aiheeseen liittyen, varsinkin erilaisten paikannusteknologioiden osalta. Myös kaupan alan  sovelluksista ja sovelluksista yleensä löytyy materiaalia.
+
+Materiaalia löytyy melko laajoina kokonaisuuksina, joten lähteiden läpi käymiseen menee noin 20 - 60 minuuttia jokaista lähdettä kohden.
+
+%Millaisen aineiston varaan perustat tutkimuksesi? Arvioi materiaalin
+%riittävyyttä asetettuihin tavoitteisiin nähden.
+
+%Pitää olla siis hieman kuvaa siitä, minkälaisen materiaalin kanssa
+%ollaan tekemisissä ja mitä sellaisen käsittelyyn tarvitaan (etenkin
+%siis tarvittavan ajan puolesta; ts. kuinka monta tuntia/minuuttia per
+%lähde?).
+
+\section{Tutkimusmenetelmät}
+
+Tutkimusmenetelmänä on vaiheittainen prosessi:
+\begin{enumerate}
+\item lähteiden etsintä kulloisenkin luvun aiheesta
+\item lähteiden jakaminen alalukujen aiheiden mukaan
+\item alaluvun valinta ja sitä vastaavien lähteiden lukeminen
+\item muistiinpanojen tekeminen työn Latex pohjaan alaluvun kohdalle kommentoituna
+\item muistiinpanojen järjestäminen sopivaan järjestykseen
+\item alaluvun kirjoittaminen ja sovittaminen muuhun lukuun
+\end{enumerate}
+%Miten sen keräät materiaalisi tai saat sen käsiisi? Kuinka käsittelet
+%sen? Kuinka siitä tulee raportti?
+
+%Tavallaisesti kirjallisuustutkimuksen yhteydessä tämä on:
+%(a) lähderyhmien valinta,
+%(b) viitteiden ja lähteiden haku,
+%(c) lähteiden arviointi,
+%(d) lähteiden lukeminen,
+%(e) tiedon organisointi,
+%(f) raportointi.  % (f) tärkeää ettei jää vain lukemiseksi!
+
+%Kirjallisuustutkimuksen yleinen menetelmä pitää sovittaa tähän
+%nimenomaiseen aiheeseen sekä tekijän lähtökohtiin. Kuinka sinä teet
+%muistiinpanot (että myös kirjoitat etkä pelkästään lue). Eli tälle
+%pitää hieman miettiä omakohtaista vaiheistusta. Siis nähdä ihan
+%oikeasti, kuinka sinä saat tutkielman tehtyä.
+
+%Ja... raportointi ei ole kirjoittamista vaan jo kirjoitettujen
+%muistiinpanojen koostamista yhteneväksi teokseksi.
+
+\section{Haasteet}
+
+Vaikka aiheesta löytyykin jo melko hyvin kirjoituksia, on se vielä melko nuori. Eri paikannustekniikoista ei ole olemassa mitään standardeja jolloin niistä saattaa löytyä eri tietoja eri paikoista, mikä vaikeuttaa luotettavien tietojen keräämistä. 
+%Yleensä kaikkiin töihin liittyy kompastuskiviä. Ne on syytä tiedostaa
+%etukäteen. Yhdessä työssä aihe on suurpiirteinen (työn rajaaminen
+%vaikeaa), toisessa materiaalia on niukasti saatavissa, kolmannessa
+%taas materiaalia on hukkumiseen asti.  Eli, nämä pitäisi kyseisen
+%tutkimuksen osalta kirjata ylös, ja nähdä ne myös mahdollisuuksina
+%(positiivisina haasteina) ei ainostaan esteinä.
+
+\section{Resurssit}
+
+Työn tekijänä on Ville Ojaniemi ja sitä ohjaa Sakari Luukkainen. Työn tekemiseen on varattu noin 160 tuntia. Työ suoritetaan kirjallisuuskatsauksena, eikä työssä ole kokeellista osuutta.
+%Kuka tätä työtä tekee, kuka ohjaa, jne. Paljonko on käyttää
+%aikaa. Tarvitaanko muuta? (Onko työssä joku kokeellinen osuus?)
+
+\section{Aikataulu}
+
+Työn tekemiseen on varattu joka viikko yksi kokonainen päivä ja muutaman tunnin mittaisia jaksoja sovitettuna muuhun aikatauluun. Näin työ pysyy mielessä jatkuvasti ja pidemmissä työjaksoissa pystyy keskittymään täydellisesti vain tähän työhön. 
+%Laadi tutkimustyölle ja raportoinnille realistinen aikataulu.
+%Huolehdi, että suunnitelmasi vastaa kandidaatin tutkielman sekä
+%seminaarin aikataulua sekä laajuutta.  \emph{Kurssiesitteessä omalle
+  %kirjoitusprosessille on arvioitu noin 6 op eli 160 tuntia eli noin 4
+  %viikkoa työtä.}
+
+\begin{tabular}{|p{30mm}|p{120mm}|}
+\hline
+7.2	& Tutkimussuunnitelma palautus\\ \hline
+8.2	& Runko \\ \hline
+10.2 	&Alustava johdanto \\ \hline
+14.2  	& Alustava Teknologiat luku \\ \hline
+14.2   & V1 palautus \\ \hline
+18.2   & Teknologia luku \\ \hline
+21.2   & Alustava sovellukset luku \\ \hline
+28.2   & Alustava täsmämarkkinointi luku \\ \hline
+28.2   & V2 palautus \\ \hline
+6.3	&Sovellukset luku \\ \hline
+13.5	&Täsmämarkkinointi luku \\ \hline
+20.3	&Yhteenveto \\ \hline
+28.3   & V3 palautus \\ \hline
+3.4  	& Korjauksia ja täydennyksiä \\ \hline
+10.4  	&Viimeistelyä \\ \hline
+16.4   &Lopullinen työ valmis \\ \hline
+17.4	&V4 palautus \\ \hline
+\end{tabular}
+
+
+\section{Esittäminen}
+Työn pää- ja alaluku hahmotelma
+%Laadi lyhyt sisällysluettelo, jossa on hahmoteltuna kandityön pää- ja
+%alaluvut. Yleensä perusrunko on
+%(1) Johdanto,
+%(2) Tausta,
+%(3) Sisäluvut,
+%(4) Yhteenveto.
+
+\renewcommand{\labelenumii}{\theenumii}
+\renewcommand{\theenumii}{\theenumi.\arabic{enumii}.}
+\begin{enumerate}
+	\item Johdanto
+	\item Sisätilapaikannus teknologiat
+		\begin{enumerate}
+    			\item WLAN
+    			\item Bluetooth
+    			\item RFID
+			\item VLC
+			\item Liikeanturit
+			\item Magneettianturit
+			\item Sisätilapaikannus teknologioiden tulevaisuus
+			\item Yhteenveto
+ 		 \end{enumerate}
+	\item Sisätilapaikannuksen sovellukset
+		\begin{enumerate}
+    			\item Sovellukset yleisesti
+			\item Kaupan alan sovellukset
+			\item Sovellukset tulevaisuudessa
+			\item Yhteenveto
+ 		 \end{enumerate}
+	\item Sisätilapaikannus täsmämarkkinoinnissa
+		\begin{enumerate}
+    			\item Täsmämarkkinointi
+			\item Vaatimukset paikannusteknologioille 
+			\item Sisätilapaikannuksen hyödyt markkinoinnissa
+			\item Sisätilapaikannuksen ja markkinoinnin tulevaisuus
+			\item Yhteenveto
+ 		 \end{enumerate}
+  	\item Yhteenveto
+\end{enumerate}
+
+%
+%Sinun täytyy suunnitella oma raportointisi tähän sopivaksi. 
+
+%\emph{Rakenne tarkentuu työn edetessä. Tutkimussuunnitelmaan ei välttämättä tarvita lähdeluetteloa, mutta halutessasi voit sisällyttää tärkeimmät lähteet.}
+
+% ---------------------------------------------------------------------
+%
+% ÄLÄ MUUTA MITÄÄN TÄÄLTÄ LOPUSTA
+
+% Tässä on käytetty siis numeroviittausjärjestelmää. 
+% Toinen hyvin yleinen malli on nimi-vuosi-viittaus.
+
+% \bibliographystyle{plainnat}
+\bibliographystyle{finplain}  % suomi
+%\bibliographystyle{plain}    % englanti
+% Lisää mm. http://amath.colorado.edu/documentation/LaTeX/reference/faq/bibstyles.pdf
+
+% Muutetaan otsikko "Kirjallisuutta" -> "Lähteet"
+\renewcommand{\refname}{Lähteet}  % article-tyyppisen
+
+% Määritä bib-tiedoston nimi tähän (eli lahteet.bib ilman bib)
+%\bibliography{lahteet}
+
+% ---------------------------------------------------------------------
+
+\end{document}
