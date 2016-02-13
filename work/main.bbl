@@ -1,4 +1,4 @@
-\begin{thebibliography}{0}
+\begin{thebibliography}{1}
 \input babelbst.tex
 \newcommand{\Capitalize}[1]{\uppercase{#1}}
 \newcommand{\capitalize}[1]{\expandafter\Capitalize#1}
@@ -7,5 +7,10 @@
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Aliprantis \bbland{} Border(1994)]{ab94}
+Charalambos~D. Aliprantis \bbland{} Kim~C. Border.
+\newblock \emph{Infinite Dimensional Analysis}.
+\newblock Springer, Berlin, 1994.
 
 \end{thebibliography}
