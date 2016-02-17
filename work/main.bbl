@@ -1,16 +1,69 @@
-\begin{thebibliography}{1}
-\input babelbst.tex
-\newcommand{\Capitalize}[1]{\uppercase{#1}}
-\newcommand{\capitalize}[1]{\expandafter\Capitalize#1}
-\providecommand{\natexlab}[1]{#1}
-\providecommand{\url}[1]{\texttt{#1}}
-\expandafter\ifx\csname urlstyle\endcsname\relax
-  \providecommand{\doi}[1]{doi: #1}\else
-  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+\begin{thebibliography}{10}
 
-\bibitem[Aliprantis \bbland{} Border(1994)]{ab94}
-Charalambos~D. Aliprantis \bbland{} Kim~C. Border.
-\newblock \emph{Infinite Dimensional Analysis}.
-\newblock Springer, Berlin, 1994.
+\bibitem{D}
+Kevin Curran, Eoghan Furey, Tom Lunney, Jose Santos, Derek Woods, and Aiden
+  McCaughey.
+\newblock An evaluation of indoor location determination technologies.
+\newblock {\em Journal of Location Based Services}, 5(2):61--78, 2011.
+
+\bibitem{B}
+Yanying Gu, A.~Lo, and I.~Niemegeers.
+\newblock A survey of indoor positioning systems for wireless personal
+  networks.
+\newblock {\em Communications Surveys Tutorials, IEEE}, 11(1):13--32, Jan 2009.
+
+\bibitem{C}
+M.~Vossiek, L.~Wiebking, P.~Gulden, J.~Wieghardt, C.~Hoffmann, and P.~Heide.
+\newblock Wireless local positioning.
+\newblock {\em Microwave Magazine, IEEE}, 4(4):77--86, Dec 2003.
+
+\bibitem{A}
+Hui Liu, H.~Darabi, P.~Banerjee, and Jing Liu.
+\newblock Survey of wireless indoor positioning techniques and systems.
+\newblock {\em Systems, Man, and Cybernetics, Part C: Applications and Reviews,
+  IEEE Transactions on}, 37(6):1067--1080, Nov 2007.
+
+\bibitem{G}
+Binghao Li, James Salter, Andrew~G. Dempster, and Chris Rizos.
+\newblock Indoor positioning techniques based on wireless lan.
+\newblock In {\em LAN, FIRST IEEE INTERNATIONAL CONFERENCE ON WIRELESS
+  BROADBAND AND ULTRA WIDEBAND COMMUNICATIONS}, pages 13--16, 2006.
+
+\bibitem{H}
+P.~Bahl and V.N. Padmanabhan.
+\newblock Radar: an in-building rf-based user location and tracking system.
+\newblock In {\em INFOCOM 2000. Nineteenth Annual Joint Conference of the IEEE
+  Computer and Communications Societies. Proceedings. IEEE}, volume~2, pages
+  775--784 vol.2, 2000.
+
+\bibitem{BLE}
+Ramsey Faragher and R~Harle.
+\newblock An analysis of the accuracy of bluetooth low energy for indoor
+  positioning applications.
+\newblock In {\em Proceedings of the 27th International Technical Meeting of
+  the Satellite Division of the Institute of Navigation (ION GNSS+'14)}, 2014.
+
+\bibitem{ibeacon}
+Jingjing Yang, Zhihui Wang, and Xiao Zhang.
+\newblock An ibeacon-based indoor positioning systems for hospitals.
+\newblock {\em International Journal of Smart Home}, 9(7):161--168, 2015.
+
+\bibitem{bluesentinel}
+Giorgio Conte, Massimo De~Marchi, Alessandro~Antonio Nacci, Vincenzo Rana, and
+  Donatella Sciuto.
+\newblock Bluesentinel: a first approach using ibeacon for an energy efficient
+  occupancy detection system.
+\newblock In {\em BuildSys@ SenSys}, pages 11--19, 2014.
+
+\bibitem{E}
+Lionel~M. Ni, Yunhao Liu, Yiu~Cho Lau, and Abhishek~P. Patil.
+\newblock Landmarc: Indoor location sensing using active rfid.
+\newblock {\em Wirel. Netw.}, 10(6):701--710, November 2004.
+
+\bibitem{F}
+S.S Saab and Z.S. Nakad.
+\newblock A standalone rfid indoor positioning system using passive tags.
+\newblock {\em Industrial Electronics, IEEE Transactions on}, 58(5):1961--1970,
+  May 2011.
 
 \end{thebibliography}

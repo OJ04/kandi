@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.28)  12 FEB 2016 17:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.28)  17 FEB 2016 19:26
 entering extended mode
-**C:/Users/Ville/Documents/KANDI/kandi/ty√∂/main.tex
-(C:/Users/Ville/Documents/KANDI/kandi/ty√∂/main.tex
+**C:/Users/Ville/Documents/KANDI/kandi/work/main.tex
+(C:/Users/Ville/Documents/KANDI/kandi/work/main.tex
 LaTeX2e <2015/10/01> patch level 2
 Babel <3.9m> and hyphenation patterns for 69 languages loaded.
 ("C:\Users\Ville\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cls"
@@ -630,31 +630,35 @@ Overfull \hbox (5.22842pt too wide) in paragraph at lines 8--45
 
  [3
 
-] (luku_johdanto.tex) (luku_teknologiat.tex [4
+] (luku_johdanto.tex) (luku_teknologiat.tex
+Overfull \hbox (13.56383pt too wide) in paragraph at lines 5--1
+\T1/aer/m/n/12 Reaaliaikaisesta si-jain-ti-tie-dos-ta on tul-lut t‰r-ke‰ osa mo
+-nis-sa so-vel-luk-sis-sa ja j‰rjestelmiss‰[[]].
+ []
 
-])
-(luku_sovellukset.tex) (luku_t√§sm√§markkinointi.tex) (luku_yhteenveto.tex)
-[5] [6] (main.bbl (babelbst.tex (finnbst.tex))) [7
+[4
 
-]
+] [5] [6]) (luku_sovellukset.tex) (luku_tasmamarkkinointi.tex)
+(luku_yhteenveto.tex) [7] [8] (main.bbl) [9
 
+] 
 AED: lastpage setting LastPage
 (main.aux) ) 
 Here is how much of TeX's memory you used:
- 5644 strings out of 493634
- 73530 string characters out of 3135239
- 143407 words of memory out of 3000000
- 8857 multiletter control sequences out of 15000+200000
+ 5611 strings out of 493634
+ 73352 string characters out of 3135239
+ 145533 words of memory out of 3000000
+ 8831 multiletter control sequences out of 15000+200000
  29997 words of font info for 65 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 34i,10n,43p,645b,286s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 34i,10n,43p,920b,286s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Ville/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
 c/amsfonts/cm/cmbx12.pfb><C:/Users/Ville/AppData/Local/Programs/MiKTeX 2.9/font
 s/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Ville/AppData/Local/Programs/MiK
 TeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (7 pages, 55919 bytes).
+Output written on main.pdf (9 pages, 81911 bytes).
 PDF statistics:
- 38 PDF objects out of 1000 (max. 8388607)
+ 44 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

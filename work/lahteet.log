@@ -1,11 +1,156 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdftex 2016.1.28)  12 FEB 2016 17:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdftex 2016.1.28)  13 FEB 2016 16:04
 entering extended mode
-**C:/Users/Ville/Documents/KANDI/kandi/työ/lahteet.bib
-(C:/Users/Ville/Documents/KANDI/kandi/työ/lahteet.bib)
-*
+**C:/Users/Ville/Documents/KANDI/kandi/work/lahteet.bib
+(C:/Users/Ville/Documents/KANDI/kandi/work/lahteet.bib
+Overfull \hbox (110.46852pt too wide) in paragraph at lines 1--13
+\tenrm words=indoor ra-dio;radiowave prop-a-ga-tion;location fin-ger-print-ing;
+wireless in-door po-si-tion-ing tech-nique;Automation;Costs;Fingerprint|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm w
+.\kern-0.27779
+.\tenrm o
+.\tenrm r
+.\tenrm d
+.etc.
+
+
+Overfull \hbox (33.24602pt too wide) in paragraph at lines 1--13
+\tenrm recog-ni-tion;Image anal-y-sis;Inventory man-age-ment;Object de-tec-tion
+;Radio fre-quency;Robustness;Scalability;Wireless|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm r
+.\tenrm e
+.\tenrm c
+.\tenrm o
+.\tenrm g
+.etc.
+
+
+Overfull \hbox (23.71826pt too wide) in paragraph at lines 1--13
+\tenrm sen-sor net-works;Indoor lo-ca-tion sens-ing;location fin-ger-print-ing;
+positioning al-go-rithm;radio fre-quency (RF);wireless|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm s
+.\tenrm e
+.\tenrm n
+.\discretionary
+..\tenrm -
+.\tenrm s
+.etc.
+
+
+Overfull \hbox (13.45428pt too wide) in paragraph at lines 14--26
+\tenrm tions;wireless per-sonal networks;Availability;Context-aware ser-vices;G
+lobal Po-si-tion-ing Sys-tem;Hospitals;Indoor|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm t
+.\tenrm i
+.\tenrm o
+.\tenrm n
+.\tenrm s
+.etc.
+
+
+Overfull \hbox (3.07927pt too wide) in paragraph at lines 14--26
+\tenrm en-vi-ron-ments;Infrared sen-sors;Navigation;Protocols;Radiofrequency id
+en-ti-fi-ca-tion;Wireless net-works;Personal|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm e
+.\discretionary replacing 2
+..\tenrm n
+..\tenrm -
+.\tenrm n
+.\kern-0.27779
+.\tenrm v
+.etc.
+
+
+Overfull \hbox (9.0515pt too wide) in paragraph at lines 27--39
+\tenrm works;ubiquitous com-put-ing;wireless LAN;context de-pen-dent in-for-ma-
+tion ser-vices;location sen-si-tive billing;self-|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm w
+.\kern-0.27779
+.\tenrm o
+.\tenrm r
+.\tenrm k
+.etc.
+
+
+Overfull \hbox (22.99594pt too wide) in paragraph at lines 27--39
+\tenrm organizing sen-sor net-works;tracking;transponder sys-tems;ubiquitous co
+m-put-ing;wireless data trans-mis-sion;wireless|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm o
+.\tenrm r
+.\tenrm g
+.\tenrm a
+.\tenrm n
+.etc.
+
+
+Overfull \hbox (2.77365pt too wide) in paragraph at lines 27--39
+\tenrm cu-rity;Measurement units;Transmitters;Transponders;Ubiquitous com-put-i
+ng;Uncertainty;Wireless sen-sor net-|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm c
+.\tenrm u
+.\discretionary
+..\tenrm -
+.\tenrm r
+.\tenrm i
+.etc.
+
+
+Overfull \hbox (31.69064pt too wide) in paragraph at lines 59--71
+\tenrm pages=1961-1970, key-words=Kalman fil-ters;iterative meth-ods;radiofrequ
+ency iden-ti-fi-ca-tion;radionavigation;Kalman|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm p
+.\tenrm a
+.\tenrm g
+.\tenrm e
+.\tenrm s
+.etc.
+
+
+Overfull \hbox (15.21848pt too wide) in paragraph at lines 59--71
+\tenrm tion-ing sys-tem (IPS);Kalman fil-ter;localization, doi=10.1109/TIE.2010
+.2055774, ISSN=0278-0046, month=May, |
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm t
+.\tenrm i
+.\tenrm o
+.\tenrm n
+.\discretionary
+..\tenrm -
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.76  issue_
+            date = {November 2004},
+? 
 ! Emergency stop.
-<*> ...ille/Documents/KANDI/kandi/työ/lahteet.bib
-                                                  
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.76  issue_
+            date = {November 2004},
 End of file on the terminal!
 
 !  ==> Fatal error occurred, no output PDF file produced!

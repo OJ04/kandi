@@ -1,19 +1,70 @@
 \section{Sisätilapaikannuksen teknologiat}
 Tässä luvussa tarkastellaan erilaisia teknologioita sisätilapaikannuksen toteuttamista varten. Luvussa tarkastellaan jokaisen teknologian hyviä ja hunoja puolia sisätilapaikannuksen näkökulmasta. Lopuksi tarkastelemme millainen tulevaisuus sisätilapaikannus teknologioilla voisi olla, onko tulevaisuus fragmentoitunut teknologioiden osalta, eli onko olemassa useita teknologioita samaan aikaan käytössä vai onko olemassa yksi vallitseva teknologia. Luvun lopussa on vielä yhteenveto luvun aiheesta.
 \subsection{WLAN}
-Wreless local area network
-\subsection{Bluetooth}
-iBeacon
+%teknologian esittely
+WLAN(Wireless Local Area Network) on selvästi yleisimmin standardin IEEE 802.11 mukainen langaton lähiverkko\cite{A}. WLAN:in kantama on 50 - 100m ja WLAN tukiasemia löytyy nykyään lähes joka puolelta, niin kotitalouksista kuin julkisista tiloistakin.
+%paikannus tekniikat
+
+WLAN paikannus tekniikoita on kahdenlaisia. Toiset perustuvat trilateration menetelmään eli mittaamalla signaalin vahvuutta vähintään kolmeen tunnettuun WLAN tukiasemaan. Toiset perustuvat sormenjälki menetelmään, jossa WLAN signaalin vahvuudesta referenssi pisteissä tehdään tietokanta, siten että signaalien vahvuudet ja referenssipisteen sijainti tallennetaan tietokantaan.\cite{G}
+ 
+%trilateration
+Trilateration menetelmä on yksinkertainen. Paikannukseen tarvitaan vähintään kolme tukiasemaa, joihin mitataan etäisyys mittaamalla signaalin vahvuus kuhunkin tukiasemaan ja muuttamalla tämä arvo etäisyydeksi. Kolmen tukiaseman etäisyyden perusteella voidaan määrittää sijainti, kun tukiasemien sijainnit tunnetaan. Sijainnin määrittämiseen voidaan käyttää esimerkiksi pienin neliösumma menetelmää.\cite{G} Tällä menetelmällä voidaan päästä muutaman metrin tarkkuuteen\cite{G} mutta signaalin vahvuus ei aina vastaa suoraan etäisyyttä ympäristön häiriöiden takia ja tarkkuus voi jäädä kymmeniin metreihin \cite{A}. Microsoftin tutkimusryhmän kehittämä RADAR\cite{H} järjestelmä perustuu tähän tekniikkaan ja sillä päästiin muutaman metrin tarkkuuteen 50 prosentin todennäköisyydellä.
+%fingerprinting
+
+Sormenjälki menetelmässä on kaksi vaihetta\cite{G}. Ensin rakennetaan tietokanta, jossa on referenssi pisteissä kuuluvien WLAN tukiasemien signaalivahvuudet. Seuraavassa vaiheessa sijainti selvitetään mittaamalla signaalivahvuudet ja vertaamalla niitä tietokantaan. Tietokantaan voidaan tallentaa signaalivahvuuksien keskiarvo jolloin puhutaan deterministisestä menetelmästä tai signaalivahvuuksista voidaan määrittää todennäköisyysjakauma, jolloin päästään suurempaan tarkkuuteen mutta myös tietokannan koko kasvaa suureksi.\cite{G}
+
+WLAN paikannuksen heikkoutena on signaalin voimakkuuden suuri vaihtelu ympäristön vaikutusten takia\cite{B,G}, muun muassa ihmisen vartalon asento ja suunta, ovet, seinät ja antennien asennot vaikuttavat voimakkuuteen. Erityisesti sormenjälki menetelmän heikkoutena ovat muuttuvat ympäristöt, kuten uudet seinät ja sermit jotka heikentävät WLAN signaalin etenemistä, jolloin tietokantaan täytyy päivittää uudet signaalivahvuus tiedot.
+
+WLAN paikannuksen vahvuuksia ovat sen yleisyys ja nykyisten jo olemassa olevien laitteiden helppo muuntaminen tähän käyttöön\cite{G}. WLAN paikannuksen infrastruktuuri on myöskin jo olemassa monilla julkisilla paikoilla ja on siten vähentävät paikannuksen kustannuksia\cite{A,B}.
+%hyvät ja huonot puolet
+%+joka puolella
+%+valmis infra
+%-ei tarkoitettu tähän
+\subsection{Bluetooth Low Energy}%BBBBBBBBBBBBBBBBB
+%iBeacon
+%teknologian esittely
+Bluetooth Low Energy (BLE) toimii samalla 2.4GHz taajuus alueella ja sen kantama on samaa luokkaa kuin WLAN teknologialla\cite{BLE,B}. BLE standardin mukaiset BLE majakat lähettävät lyhyitä viestejä laitteille, joiden avulla nämä laiteet voi signaalin vahvuuden mukaan tunnistaa läheisyyden majakkaan. BLE ominaisuuksiin kuuluu myös pieni virrankulutus, varsinkin verrattuna WLAN teknologiaan\cite{ibeacon}.
+
+%paikannus tekniikat
+BLE majakoiden avulla paikannus perustuu majakoiden tunnettuihin sijainteihin. Majakat mainostavat omaa tunnistenumeroaan alueella oleville laitteille. Laitteet sitten lähettävät saamansa tiedon palvelimelle, yleensä WLAN:in avulla. Palvelin lähettää laitteelle laitteen sijainnin. Tämänlaista järjestelyä on käytetty artikkelissa\cite{ibeacon} puhutussa sairaalassa.
+
+BLE majakoiden avulla, sisätilapaikannus voidaan myös toteuttaa samoin kuin WLAN teknologialla\cite{BLE}. Trilateration menetelmä ja sormenjälki paikannus menetlemä onnistuvat kumpikin mutta BLE kärsii samoista ongelmista kuin WLAN signaalin vaimentumisen ja heijastumien takia. BLE kärsii myös suuremmasta signaalinvahuuden vaihteluista kuin samalla taajuusalueella toimiva WLAN, johtuen pienemmästä kaistanleveydestä\cite{BLE}. Tutkimuksessa\cite{BLE} kuitenkin todetaan, että BLE sormenjälki paikannuksella voidaan saada parempia tuloksia kuin nykyisten kaltaisilla WLAN verkoilla. Tämä kuitenkin vaatii useita mittauksia ja kasvattaa sormenjälkitietokannan kokoa ja on työlästä eikä täten aina kannattavaa.
+%hyvät ja huonot puolet
+BLE teknologian houkuttelevuus perustuu halpaan hintaan ja BLE laitteiden yleisyyteen ja saatavuuteen. Mikä tahansa BLE tukeva laite voidaan asettaa majakaksi.\cite{BLE} Käytännössä kaikissa uudemmissa puhelimissa on Bluetooth tuki, joten BLE teknologia on hyvä vaihtoehto sisätilapaikannus sovelluksien kannalta. BLE teknologian etuihin kuuluu myös yksisuuntainen tiedon siirto. Yksisuuntaisella tarkoitetaan sitä, että majakat lähettävät signaalia mutteivät vastaanota ja sijainnin määrittäminen jää laitteen vastuulle. Tällä tavalla mahdollinen ei haluttu seuranta ei ole mahdollista. Applen kehittämä iBeacon protokolla perustuu BLE teknologiaan\cite{bluesentinel}. Applen kiinnostuksella BLE teknologiaan on suuri myötävaikutus sen yleistymiseen.
+
+
+
+BLE majakoilla sellaisenaan ei saada täydellisen tarkkaa sijaintia, vaan tieto siitä, millä alueella seurattava laite sijaitsee. Monissa sovelluksissa tämä on riittävä tieto ja yhdistettynä pieneen virrankulutukseen ja yleisyyteen, BLE on varteenotettava vaihtoehto sisätilapaikannuksen toteuttamiseksi. 
+%BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
 \subsection{RFID}
-RFID
+RFID(radio taajuuinen tunnistus) järjestelmään kuuluu useita komponentteja, mukaan lukien useita RFID lukijoita ja tunnisteita. RFID lukija voi lukea tunnisteiden lähettämää informaatiota. Tunnisteet voidaan jakaa kahteen kategoriaan, aktiivisiin ja passiivisiin. Passiiviset tunnisteet toimivat ilman virtalähdettä ja saavat tarvittavan energian informaation lähettämiseen lukijalta. Aktiiviset tunnisteet vaativat toimiakseen oman virtalähteen, joka on usein pieni paristo. Niillä on myös suurempi kantama kuin passiivisilla.\cite{E}
+
+Sisätilapaikannus käyttäen RFID teknologiaa voidaan jakaa kahteen sen mukaan ovatko lukijat vai tunnisteet kiinteitä. Kiinteällä tarkoitetaan sitä, että tunniste tai lukija on paikoillaan tunnetussa sijainnissa. 
+
+Tutkimuksessa \cite{E} on käytetty kiinteitä lukijoita. Tällä tekniikalla seurattavassa kohteessa on tunniste ja seurattavalle alueelle on sijoitettu useita lukijoita. Jokainen lukija on asetettu sopivalle tehotasolle siten, että sen kantama tunnetaan. Näin alue jaetaan pieniin osa-alueisiin, jotka voidaan tunnistaa sen perusteella mitkä lukijat pystyvät lukemaan tunnisteen tältä alueelta. Monet asiat vaikuttavat lukioiden kantamiin, siksi virheen mahdollisuus on usein suuri.
+Samassa tutkimuksessa\cite{E} esiteltiin myös paranneltu tekniikka nimeltä LANDMARC ( Location Identification based on Dynamic Active RFID Calibration). Tässä tekniikassa alueella on lukijoiden lisäksi viitetunnisteita tunnetuissa sijainneissa. Niiden avulla saadaan tarkempi tulos kun seurattavan tunnisteen etäisyyttä verrataan viitetunnisteiden tunnettuihin etäisyyksiin. Etäisyys määritetään muuttamalla lukijan tehotasoa ja täten kantamaa.
+
+Toinen tapa on käyttää pelkästään kiinteitä tunnisteita ja lukijan sijainti määritetään niiden perusteella. Näin on tehty muun muassa tässä tutkimuksessa\cite{F}. Tutkimuksessa käytettiin passiivisia tunnisteita lukijan reitin varrella ja sijainti määritettiin mittaamalla tunnisteen takaisin lähettämä teho, joka riippuu pääasiassa lukijan ja tunnisteen välisestä etäisyydestä\cite{F}.
+
+RFID teknologiaa hyödyntämällä voidaan päästä erittäin tarkkoihinkin tuloksiin, tutkimuksessa \cite{E} päästiin noin metrin tarkkuuteen ja tutkimuksessa \cite{F} jopa 0.1 metrin tarkkuuteen. RFID teknologian vahvuus on selvästi hyvä tarkkuus, mutta tähän tarkkuuteen pääseminen vaatii paljon mahdollisesti kallista infrastruktuuria. Varsinkin tapauksessa\cite{E}, jossa käytetään kiinteitä lukijoita, infrastruktuuri tulisi kalliiksi varsinkin suurilla alueilla. Tutkimuksen\cite{F} mukainen järjestely ei myöskään ole kovinkaan toimiva suurilla alueilla, sillä hyvän tarkkuuden saavuttamiseksi, koko alue tulisi peittää tiheällä tunniste verkolla. Vaikka passiiviset tunnisteet ovatkin halpoja\cite{F}, tiheän verkon asentaminen ei ole mielekästä.
+
 \subsection{VLC}
-visible light communication
+%visible light communication
+%teknologian esittely
+%paikannus tekniikat
+%hyvät ja huonot puolet
 \subsection{Liikeanturit}
-gyro,accelometer,compass
+%gyro,accelometer,compass
+%teknologian esittely
+%paikannus tekniikat
+%hyvät ja huonot puolet
 \subsection{Magneettianturi}
-indoorAtlas
+%indoorAtlas
+%teknologian esittely
+%paikannus tekniikat
+%hyvät ja huonot puolet
 \subsection{Sisätilapaikannus teknologioiden tulevaisuus}
-fragmentoitunut vs yksi vallitseva
+%fragmentoitunut vs yksi vallitseva
 \subsection{yhteenveto}
-summa summarum
+%summa summarum
 
