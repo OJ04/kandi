@@ -66,4 +66,22 @@ S.S Saab and Z.S. Nakad.
 \newblock {\em Industrial Electronics, IEEE Transactions on}, 58(5):1961--1970,
   May 2011.
 
+\bibitem{VLCA}
+Zhou Zhou, Mohsen Kavehrad, and Peng Deng.
+\newblock Indoor positioning algorithm using light-emitting diode visible light
+  communications.
+\newblock {\em Optical Engineering}, 51(8):085009--1, 2012.
+
+\bibitem{IMU}
+Jussi Collin, Oleg Mezentsev, G{\'e}rard Lachapelle, et~al.
+\newblock Indoor positioning system using accelerometry and high accuracy
+  heading sensors.
+\newblock In {\em Proc. of ION GPS/GNSS 2003 Conference}, pages 9--12, 2003.
+
+\bibitem{hg1700}
+Honeywell aerospace verkkosivut.
+\newblock
+  \url{https://aerospace.honeywell.com/products/navigation-and-sensors/hg1700}.
+\newblock Accessed: 2016-02-18.
+
 \end{thebibliography}

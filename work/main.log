@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.28)  17 FEB 2016 19:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.1.28)  18 FEB 2016 15:52
 entering extended mode
-**C:/Users/Ville/Documents/KANDI/kandi/work/main.tex
-(C:/Users/Ville/Documents/KANDI/kandi/work/main.tex
+**C:/Users/Ville/Documents/KANDI/work/main.tex
+(C:/Users/Ville/Documents/KANDI/work/main.tex
 LaTeX2e <2015/10/01> patch level 2
-Babel <3.9m> and hyphenation patterns for 69 languages loaded.
-("C:\Users\Ville\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cls"
+Babel <3.9n> and hyphenation patterns for 69 languages loaded.
+("C:\Miktex 2.9\tex\latex\base\article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Users\Ville\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size12.clo"
+("C:\Miktex 2.9\tex\latex\base\size12.clo"
 File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -20,19 +20,20 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) ("C:\Users\Ville\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.st
-y"
+)
+("C:\Miktex 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
- ("C:\Users\Ville\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\utf8.def"
+
+("C:\Miktex 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2015/09/07 v1.1p UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-("C:\Users\Ville\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
+("C:\Miktex 2.9\tex\latex\base\t1enc.dfu"
 File: t1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -192,7 +193,7 @@ File: t1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-("C:\Users\Ville\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
+("C:\Miktex 2.9\tex\latex\base\ot1enc.dfu"
 File: ot1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -233,7 +234,7 @@ File: ot1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-("C:\Users\Ville\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
+("C:\Miktex 2.9\tex\latex\base\omsenc.dfu"
 File: omsenc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -256,58 +257,53 @@ Now handling font encoding U ...
    defining Unicode char U+2026 (decimal 8230)
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
-)) ("C:\Users\Ville\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ae\ae.sty"
+))
+("C:\Miktex 2.9\tex\latex\ae\ae.sty"
 Package: ae 2001/02/12 1.3 Almost European Computer Modern
-
-("C:\Users\Ville\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+ ("C:\Miktex 2.9\tex\latex\base\fontenc.sty"
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
-
-("C:\Users\Ville\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.def"
+ ("C:\Miktex 2.9\tex\latex\base\t1enc.def"
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 )
 LaTeX Font Info:    Try loading font information for T1+aer on input line 105.
 
-("C:\Users\Ville\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ae\t1aer.fd"
+("C:\Miktex 2.9\tex\latex\ae\t1aer.fd"
 File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
 )))
-("C:\Users\Ville\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ae\aecompl.sty"
+("C:\Miktex 2.9\tex\latex\ae\aecompl.sty"
 Package: aecompl 1998/07/23 0.9 T1 Complements for AE fonts (D. Roegel)
 )
-("C:\Users\Ville\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.sty"
-Package: babel 2015/08/03 3.9m The Babel package
+("C:\Miktex 2.9\tex\generic\babel\babel.sty"
+Package: babel 2016/01/08 3.9n The Babel package
+
 *************************************
 * Local config file bblopts.cfg used
 *
-
-("C:\Users\Ville\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\bblopts.c
-fg"
+("C:\Miktex 2.9\tex\latex\00miktex\bblopts.cfg"
 File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
 )
-("C:\Users\Ville\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-finnish\finn
-ish.ldf"
+("C:\Miktex 2.9\tex\latex\babel-finnish\finnish.ldf"
 Language: finnish 2007/10/20 v1.3q Finnish support from the babel system
 
-("C:\Users\Ville\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.def"
-File: babel.def 2015/08/03 3.9m Babel common definitions
+("C:\Miktex 2.9\tex\generic\babel\babel.def"
+File: babel.def 2016/01/08 3.9n Babel common definitions
 \babel@savecnt=\count87
 \U@D=\dimen103
 )
 Package babel Info: Making " an active character on input line 89.
 )
-("C:\Users\Ville\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-english\engl
-ish.ldf"
+("C:\Miktex 2.9\tex\latex\babel-english\english.ldf"
 Language: english 2012/08/20 v3.3p English support from the babel system
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 )
-("C:\Users\Ville\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-swedish\swed
-ish.ldf"
+("C:\Miktex 2.9\tex\latex\babel-swedish\swedish.ldf"
 Language: swedish 2005/03/31 v2.3d Swedish support from the babel system
 )
 
-Package babel Warning: Last declared language option is `finnish,
+Package babel Warning: Last declared language option is `finnish',
 (babel)                but the last processed one was `swedish'.
 (babel)                The main language cannot be set as both a global
 (babel)                and a package option. Use `main=finnish' as
@@ -315,13 +311,10 @@ Package babel Warning: Last declared language option is `finnish,
 
 ) (aaltosci_t.sty
 Package: aaltosci_t 2011/02/01 v1.02 TIK.kand style
-
-("C:\Users\Ville\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssymb.s
-ty"
+ ("C:\Miktex 2.9\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-("C:\Users\Ville\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.
-sty"
+("C:\Miktex 2.9\tex\latex\amsfonts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks16
 \symAMSa=\mathgroup4
@@ -329,38 +322,31 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-("C:\Users\Ville\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.
-sty"
+("C:\Miktex 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\Ville\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.st
-y"
+("C:\Miktex 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
 )
-("C:\Users\Ville\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.
-sty"
+("C:\Miktex 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\Ville\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+("C:\Miktex 2.9\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Users\Ville\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\graphics.
-cfg"
+("C:\Miktex 2.9\tex\latex\00miktex\graphics.cfg"
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 94.
 
-("C:\Users\Ville\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.
-def"
+("C:\Miktex 2.9\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-("C:\Users\Ville\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infware
-rr.sty"
+("C:\Miktex 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-("C:\Users\Ville\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds
-.sty"
+("C:\Miktex 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count88
@@ -368,39 +354,37 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
 )
-("C:\Users\Ville\AppData\Local\Programs\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
+("C:\Miktex 2.9\tex\latex\natbib\natbib.sty"
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip43
 \bibsep=\skip44
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count89
-)) ("C:\Users\Ville\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\alltt.sty"
+))
+("C:\Miktex 2.9\tex\latex\was\gensymb.sty"
+Package: gensymb 2003/07/02 v1.0 (WaS)
+)
+("C:\Miktex 2.9\tex\latex\base\alltt.sty"
 Package: alltt 1997/06/16 v2.0g defines alltt environment
 )
-("C:\Users\Ville\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.st
-y"
+("C:\Miktex 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip45
 
 For additional information on amsmath, use the `?' option.
-
-("C:\Users\Ville\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.st
-y"
+("C:\Miktex 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01
 
-("C:\Users\Ville\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
-"
+("C:\Miktex 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks18
 \ex@=\dimen106
 ))
-("C:\Users\Ville\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
-"
+("C:\Miktex 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen107
 )
-("C:\Users\Ville\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
-"
+("C:\Miktex 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count90
@@ -440,7 +424,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \mathdisplay@stack=\toks22
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
-) ("C:\Users\Ville\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\calc.sty"
+)
+("C:\Miktex 2.9\tex\latex\tools\calc.sty"
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count102
 \calc@Bcount=\count103
@@ -453,16 +438,15 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count104
 \calc@Cskip=\skip50
 )
-("C:\Users\Ville\AppData\Local\Programs\MiKTeX 2.9\tex\latex\eurosym\eurosym.st
-y"
+("C:\Miktex 2.9\tex\latex\eurosym\eurosym.sty"
 Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
 \@eurobox=\box28
-) ("C:\Users\Ville\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.sty"
+)
+("C:\Miktex 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-("C:\Users\Ville\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings.
-sty"
+("C:\Miktex 2.9\tex\latex\listings\listings.sty"
 \lst@mode=\count105
 \lst@gtempboxa=\box29
 \lst@token=\toks23
@@ -476,25 +460,22 @@ sty"
 \lst@lineno=\count110
 \lst@maxwidth=\dimen120
 
-("C:\Users\Ville\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstmisc.s
-ty"
+("C:\Miktex 2.9\tex\latex\listings\lstmisc.sty"
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 \c@lstnumber=\count111
 \lst@skipnumbers=\count112
 \lst@framebox=\box30
 )
-("C:\Users\Ville\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings.
-cfg"
+("C:\Miktex 2.9\tex\latex\listings\listings.cfg"
 File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
-("C:\Users\Ville\AppData\Local\Programs\MiKTeX 2.9\tex\latex\algorithms\algorit
-hm.sty"
+("C:\Miktex 2.9\tex\latex\algorithms\algorithm.sty"
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
 nment
 
-("C:\Users\Ville\AppData\Local\Programs\MiKTeX 2.9\tex\latex\float\float.sty"
+("C:\Miktex 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count113
 \float@exts=\toks24
@@ -502,14 +483,13 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks25
 \@floatcapt=\box32
 )
-("C:\Users\Ville\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+("C:\Miktex 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \@float@every@algorithm=\toks26
 \c@algorithm=\count114
 )
-("C:\Users\Ville\AppData\Local\Programs\MiKTeX 2.9\tex\latex\algorithms\algorit
-hmic.sty"
+("C:\Miktex 2.9\tex\latex\algorithms\algorithmic.sty"
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
 \c@ALC@unique=\count115
 \c@ALC@line=\count116
@@ -518,14 +498,12 @@ Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
 \ALC@tlm=\skip51
 \algorithmicindent=\skip52
 )
-("C:\Users\Ville\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyphenat\hyphenat.
-sty"
+("C:\Miktex 2.9\tex\latex\hyphenat\hyphenat.sty"
 Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
 \langwohyphens=\language70
 LaTeX Info: Redefining \_ on input line 43.
 )
-("C:\Users\Ville\AppData\Local\Programs\MiKTeX 2.9\tex\latex\supertabular\super
-tabular.sty"
+("C:\Miktex 2.9\tex\latex\supertabular\supertabular.sty"
 Package: supertabular 2004/02/20 v4.1e the supertabular environment
 \c@tracingst=\count119
 \ST@wd=\dimen121
@@ -544,7 +522,7 @@ Package: supertabular 2004/02/20 v4.1e the supertabular environment
 \ST@dimen=\dimen131
 \ST@pbox=\box33
 )
-("C:\Users\Ville\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\array.sty"
+("C:\Miktex 2.9\tex\latex\tools\array.sty"
 Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen132
 \extrarowheight=\dimen133
@@ -552,8 +530,7 @@ Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \extratabsurround=\skip56
 \backup@length=\skip57
 )
-("C:\Users\Ville\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.
-sty"
+("C:\Miktex 2.9\tex\latex\fancyhdr\fancyhdr.sty"
 \fancy@headwidth=\skip58
 \f@ncyO@elh=\skip59
 \f@ncyO@erh=\skip60
@@ -564,27 +541,25 @@ sty"
 \f@ncyO@olf=\skip65
 \f@ncyO@orf=\skip66
 )
-("C:\Users\Ville\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lastpage\lastpage.
-sty"
+("C:\Miktex 2.9\tex\latex\lastpage\lastpage.sty"
 Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 ) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
 
-("C:\Users\Ville\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mk
-ii"
+("C:\Miktex 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count120
 \scratchdimen=\dimen134
@@ -598,12 +573,24 @@ ii"
 \makeMPintoPDFobject=\count125
 \everyMPtoPDFconversion=\toks29
 )
+LaTeX Info: Redefining \celsius on input line 65.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 65.
+
+
+
+Package gensymb Warning: Not defining \perthousand.
+
+LaTeX Info: Redefining \ohm on input line 65.
+Package gensymb Info: Using \Omega for \ohm on input line 65.
+
+Package gensymb Warning: Not defining \micro.
+
 \c@lstlisting=\count126
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 64.
- (makroja.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 222--222
+(lastpage)             ! on input line 65.
+(makroja.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 223--223
 
  []
 
@@ -612,12 +599,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 222--222
 {C:/Users/Ville/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 (luku_abstraktit.tex
 LaTeX Font Info:    Try loading font information for U+msa on input line 8.
-
-("C:\Users\Ville\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+ ("C:\Miktex 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 8.
-("C:\Users\Ville\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+
+("C:\Miktex 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 Overfull \hbox (5.22842pt too wide) in paragraph at lines 8--45
@@ -638,27 +625,31 @@ Overfull \hbox (13.56383pt too wide) in paragraph at lines 5--1
 
 [4
 
-] [5] [6]) (luku_sovellukset.tex) (luku_tasmamarkkinointi.tex)
-(luku_yhteenveto.tex) [7] [8] (main.bbl) [9
+] [5] [6] [7] [8]) (luku_sovellukset.tex) (luku_tasmamarkkinointi.tex)
+(luku_yhteenveto.tex) [9] (main.bbl [10
 
-] 
+]
+LaTeX Font Info:    Try loading font information for T1+aett on input line 84.
+ ("C:\Miktex 2.9\tex\latex\ae\t1aett.fd"
+File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
+)) [11] 
 AED: lastpage setting LastPage
 (main.aux) ) 
 Here is how much of TeX's memory you used:
- 5611 strings out of 493634
- 73352 string characters out of 3135239
- 145533 words of memory out of 3000000
- 8831 multiletter control sequences out of 15000+200000
- 29997 words of font info for 65 fonts, out of 3000000 for 9000
+ 5697 strings out of 493634
+ 70067 string characters out of 3135239
+ 144793 words of memory out of 3000000
+ 8905 multiletter control sequences out of 15000+200000
+ 30487 words of font info for 67 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 34i,10n,43p,920b,286s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Ville/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmbx12.pfb><C:/Users/Ville/AppData/Local/Programs/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Ville/AppData/Local/Programs/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (9 pages, 81911 bytes).
+ 34i,10n,43p,914b,331s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Miktex 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Miktex
+ 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Miktex 2.9/fonts/type1/public
+/amsfonts/cm/cmsy8.pfb><C:/Miktex 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb
+><C:/Miktex 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on main.pdf (11 pages, 103524 bytes).
 PDF statistics:
- 44 PDF objects out of 1000 (max. 8388607)
+ 58 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -32,8 +32,6 @@ BLE majakoiden avulla, sisätilapaikannus voidaan myös toteuttaa samoin kuin WL
 %hyvät ja huonot puolet
 BLE teknologian houkuttelevuus perustuu halpaan hintaan ja BLE laitteiden yleisyyteen ja saatavuuteen. Mikä tahansa BLE tukeva laite voidaan asettaa majakaksi.\cite{BLE} Käytännössä kaikissa uudemmissa puhelimissa on Bluetooth tuki, joten BLE teknologia on hyvä vaihtoehto sisätilapaikannus sovelluksien kannalta. BLE teknologian etuihin kuuluu myös yksisuuntainen tiedon siirto. Yksisuuntaisella tarkoitetaan sitä, että majakat lähettävät signaalia mutteivät vastaanota ja sijainnin määrittäminen jää laitteen vastuulle. Tällä tavalla mahdollinen ei haluttu seuranta ei ole mahdollista. Applen kehittämä iBeacon protokolla perustuu BLE teknologiaan\cite{bluesentinel}. Applen kiinnostuksella BLE teknologiaan on suuri myötävaikutus sen yleistymiseen.
 
-
-
 BLE majakoilla sellaisenaan ei saada täydellisen tarkkaa sijaintia, vaan tieto siitä, millä alueella seurattava laite sijaitsee. Monissa sovelluksissa tämä on riittävä tieto ja yhdistettynä pieneen virrankulutukseen ja yleisyyteen, BLE on varteenotettava vaihtoehto sisätilapaikannuksen toteuttamiseksi. 
 %BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
 \subsection{RFID}
@@ -49,12 +47,27 @@ Toinen tapa on käyttää pelkästään kiinteitä tunnisteita ja lukijan sijain
 RFID teknologiaa hyödyntämällä voidaan päästä erittäin tarkkoihinkin tuloksiin, tutkimuksessa \cite{E} päästiin noin metrin tarkkuuteen ja tutkimuksessa \cite{F} jopa 0.1 metrin tarkkuuteen. RFID teknologian vahvuus on selvästi hyvä tarkkuus, mutta tähän tarkkuuteen pääseminen vaatii paljon mahdollisesti kallista infrastruktuuria. Varsinkin tapauksessa\cite{E}, jossa käytetään kiinteitä lukijoita, infrastruktuuri tulisi kalliiksi varsinkin suurilla alueilla. Tutkimuksen\cite{F} mukainen järjestely ei myöskään ole kovinkaan toimiva suurilla alueilla, sillä hyvän tarkkuuden saavuttamiseksi, koko alue tulisi peittää tiheällä tunniste verkolla. Vaikka passiiviset tunnisteet ovatkin halpoja\cite{F}, tiheän verkon asentaminen ei ole mielekästä.
 
 \subsection{VLC}
+VLC(Visible Light Communication) eli näkyvän valon kommunikaatiolla tarkoitetaan nimensä mukaisesti tiedonsiirtoa, joka tapahtuu näkyvän valon avulla\cite{VLCA}. Lähettämiseen käyetetään useimmiten LED valoja niiden nopeuden, kestävyyden ja energiatehokkuuden takia. Vastaanottaminen tapahtuu useimmiten puhelimen kameralla.
+
+Tutkimuksessa\cite{VLCA} paikannus on toteutettu jakamalla alue ruudukoksi siten että jokaisen ruudun kulmassa on LED valo. Sijaintitieto välitetään binaarikoodina vastaanottimelle ja häiriöiden välttämiseksi kulmissa olevat LED valot on ajoitettu lähettämään sijaintitietoaan eri aikoihin(TDM, Time Division Multiplexing), jolloin vain yksi kerrallaan lähettää, eikä signaalit mene sekaisin. Muina aikoina kuin lähettässä valo on päällä normaalisti tarjoamassa valaistusta ympäristöönsä. 
+Tarkempi sijainti ruudussa saadaan valojen intensiteetistä. Kaikilla LED valoilla on puoliteho kulma 60\degree ja valo jakautuu useimmiten ensimmäisen asteen Lambertin kuvion(Lambertian pattern) mukaan. Näillä tiedoilla valon intensitettii voidaan muuttaa kulmaksi jossa valo on vastaanottimeen nähden. kun kulmat ovat selvillä kaikkiin ruudun 4 nurkkaan voidaan sijainti laskea.\cite{VLCA}
+Tällä tekniikalla on päästy erittäin tarkkoihin tuloksiin, jopa alle millimetrin tarkkuuteen vähä häiriöisessä ympäristössä  ja muutamiin kymmeniin millimetreihin häiriöisessä ympäristössä.
+
+Näkyvän valon kommunikaation etuja ovat hinta,tarkkuus ja energia tehokkuus. LED valot yleistyvät joka puolella joka tapauksessa energiatehokkuutensa ansiosta, joten niiden käyttö sisätilapiakannukseen on selvä etu, kun uutta ja kallista erillistä infrastruktuuria ei tarvita. VLC teknologialla päästään myös selvästi tarkempiin tuloksiin kuin millään edellä mainitulla teknologialla.
+VLC teknologian ongelmaksi muodostuu vastaanottimen asennon tärkeys. Toimiakseen hyvin vastaanottimen täytyy olla melko tarkasti vaakatasossa, eikä tämä ole kaikissa sovelluksissa mahdollista tai mielekästä. Lisäksi vastaanottimen ollessa kädessä, ihminen saattaa peittää osan lähettimistä, jolloin tarkkuus kärsii.
 %visible light communication
+
 %teknologian esittely
 %paikannus tekniikat
 %hyvät ja huonot puolet
+
 \subsection{Liikeanturit}
 %gyro,accelometer,compass
+Sisätilapaikannus perustuen liikeantureihin poikkeaa oleellisesti kaikista edellämainituista teknologioista ja tekniikoista. Edellämainitut teknologiat perustuvat jonkinlaiseen seurattavan laitteen ulkopuoliseen infrastruktuuriin sijainnin selvittämiseksi. Liikeantureista kuten gyroskooppeista, kiihtyvyys antureista ja kompasseista koostuva IMU(Inertial Measurement Unit) eli inertiamittausyksikön toiminta perustuu liikkeen seurantaan. Laitteella täytyy olla yksi tarkka tunnettu sijainti, joka voidaan saada esimerkiksi GPS tai jollain tässä työssä mainitulla teknologialla.\cite{IMU} Tämän jälkeen IMU alkaa laskea laitteen sijaintia integroimalla nopeuden, kiihtyvyyden ja suunnan muutoksia. 
+
+Paikannuksen toiminta edellyttää hyvin tarkkoja mittaustuloksia IMU:lta. Pienetkin virheet kumuloituvat nopeasti useiksi metreiksi ja lopulta kilometreiksi. Monissa uusissa puhelimissa on kaikki tämän teknologian vaatimat anturit mutta niiden tarkkuus on aivan liian heikko toimiakseen. Tutkimiksessa\cite{IMU} käytetty HG1700 on erittäin tarkka taktisen tason IMU jota on käytetty muun muassa ohjuksissa\cite{hg1700}. Tällä järjestelyllä päästiin silti vain kohtuulliseen tarkuuteen ja virhettä oli enimmillään 5m 40 minuutin testin aikana\cite{IMU}. 
+
+Liikeanturien käyttö sisätilapaikannuksessa on mahdollista mutta hyödyllisiin tuloksiin päästäkseen on käytettävä erittäin tarkkoja ja kalliita laitteita. Tämä ei ole mahdollista kuluttaja sovelluksissa mutta liikeantureita voidaan käyttää sijainnin arvioimiseen , kun muita tekniikoita ei ole hetkellisesti käytössä.
 %teknologian esittely
 %paikannus tekniikat
 %hyvät ja huonot puolet
@@ -66,5 +79,5 @@ RFID teknologiaa hyödyntämällä voidaan päästä erittäin tarkkoihinkin tul
 \subsection{Sisätilapaikannus teknologioiden tulevaisuus}
 %fragmentoitunut vs yksi vallitseva
 \subsection{yhteenveto}
-%summa summarum
+%summa summarum\
 
