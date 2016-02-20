@@ -82,6 +82,18 @@ Jussi Collin, Oleg Mezentsev, G{\'e}rard Lachapelle, et~al.
 Honeywell aerospace verkkosivut.
 \newblock
   \url{https://aerospace.honeywell.com/products/navigation-and-sensors/hg1700}.
-\newblock Accessed: 2016-02-18.
+\newblock viitattu: 2016-02-18.
+
+\bibitem{atlas}
+Indoor atlas verkkosivut.
+\newblock \url{https://www.indooratlas.com}.
+\newblock viitattu: 2016-02-20.
+
+\bibitem{magneetti}
+Binghao Li, Thomas Gallagher, Andrew~G Dempster, and Chris Rizos.
+\newblock How feasible is the use of magnetic field alone for indoor
+  positioning?
+\newblock In {\em Indoor Positioning and Indoor Navigation (IPIN), 2012
+  International Conference on}, pages 1--9. IEEE, 2012.
 
 \end{thebibliography}

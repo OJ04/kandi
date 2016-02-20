@@ -10,18 +10,18 @@
 \contentsline {subsection}{\numberline {2.4}VLC}{7}
 \contentsline {subsection}{\numberline {2.5}Liikeanturit}{8}
 \contentsline {subsection}{\numberline {2.6}Magneettianturi}{9}
-\contentsline {subsection}{\numberline {2.7}Sis\IeC {\"a}tilapaikannus teknologioiden tulevaisuus}{9}
-\contentsline {subsection}{\numberline {2.8}yhteenveto}{9}
-\contentsline {section}{\numberline {3}Sis\IeC {\"a}tilapaikannuksen sovellukset}{9}
-\contentsline {subsection}{\numberline {3.1}Sovellukset yleisesti}{9}
-\contentsline {subsection}{\numberline {3.2}Kaupan alan sovellukset}{9}
-\contentsline {subsection}{\numberline {3.3}Sovellukset tulevaisuudessa}{9}
-\contentsline {subsection}{\numberline {3.4}Yhteenveto}{9}
-\contentsline {section}{\numberline {4}Sis\IeC {\"a}tilapaikannus t\IeC {\"a}sm\IeC {\"a}markkinoinnissa}{9}
-\contentsline {subsection}{\numberline {4.1}T\IeC {\"a}sm\IeC {\"a}markkinointi}{9}
-\contentsline {subsection}{\numberline {4.2}Vaatimukset paikannusteknologioille}{9}
-\contentsline {subsection}{\numberline {4.3}Sis\IeC {\"a}tilapaikannuksen hy\IeC {\"o}dyt markkinoinnissa}{9}
-\contentsline {subsection}{\numberline {4.4}Sis\IeC {\"a}tilapaikannuksen ja markkinoinnin tulevaisus}{9}
-\contentsline {subsection}{\numberline {4.5}Yhteenveto}{9}
-\contentsline {section}{\numberline {5}Yhteenveto}{9}
-\contentsline {section}{L\IeC {\"a}hteet}{10}
+\contentsline {subsection}{\numberline {2.7}Sis\IeC {\"a}tilapaikannus teknologioiden tulevaisuus}{10}
+\contentsline {subsection}{\numberline {2.8}yhteenveto}{11}
+\contentsline {section}{\numberline {3}Sis\IeC {\"a}tilapaikannuksen sovellukset}{11}
+\contentsline {subsection}{\numberline {3.1}Sovellukset yleisesti}{11}
+\contentsline {subsection}{\numberline {3.2}Kaupan alan sovellukset}{11}
+\contentsline {subsection}{\numberline {3.3}Sovellukset tulevaisuudessa}{11}
+\contentsline {subsection}{\numberline {3.4}Yhteenveto}{11}
+\contentsline {section}{\numberline {4}Sis\IeC {\"a}tilapaikannus t\IeC {\"a}sm\IeC {\"a}markkinoinnissa}{11}
+\contentsline {subsection}{\numberline {4.1}T\IeC {\"a}sm\IeC {\"a}markkinointi}{11}
+\contentsline {subsection}{\numberline {4.2}Vaatimukset paikannusteknologioille}{11}
+\contentsline {subsection}{\numberline {4.3}Sis\IeC {\"a}tilapaikannuksen hy\IeC {\"o}dyt markkinoinnissa}{11}
+\contentsline {subsection}{\numberline {4.4}Sis\IeC {\"a}tilapaikannuksen ja markkinoinnin tulevaisus}{11}
+\contentsline {subsection}{\numberline {4.5}Yhteenveto}{11}
+\contentsline {section}{\numberline {5}Yhteenveto}{11}
+\contentsline {section}{L\IeC {\"a}hteet}{12}
