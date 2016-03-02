@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.1.28)  25 FEB 2016 11:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.1.28)  1 MAR 2016 12:15
 entering extended mode
 **C:/Users/Ville/Documents/KANDI/work/main.tex
 (C:/Users/Ville/Documents/KANDI/work/main.tex
@@ -546,18 +546,18 @@ Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 ) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
 
 ("C:\Miktex 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -573,24 +573,24 @@ LaTeX Font Info:    ... okay on input line 65.
 \makeMPintoPDFobject=\count125
 \everyMPtoPDFconversion=\toks29
 )
-LaTeX Info: Redefining \celsius on input line 65.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 65.
+LaTeX Info: Redefining \celsius on input line 66.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 66.
 
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 65.
-Package gensymb Info: Using \Omega for \ohm on input line 65.
+LaTeX Info: Redefining \ohm on input line 66.
+Package gensymb Info: Using \Omega for \ohm on input line 66.
 
 Package gensymb Warning: Not defining \micro.
 
 \c@lstlisting=\count126
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 65.
+(lastpage)             ! on input line 66.
 (makroja.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 223--223
+Underfull \hbox (badness 10000) in paragraph at lines 224--224
 
  []
 
@@ -625,33 +625,73 @@ Overfull \hbox (13.56383pt too wide) in paragraph at lines 5--1
 
 [4
 
-] [5] [6] [7] [8] [9] [10] [11]) (luku_sovellukset.tex [12])
-(luku_tasmamarkkinointi.tex [13]) (luku_yhteenveto.tex) [14] (main.bbl [15
+] [5] [6] [7] [8] [9] [10] [11]) (luku_sovellukset.tex
+Overfull \hbox (13.21536pt too wide) in paragraph at lines 10--12
+\T1/aer/m/n/12 Äkilllisissä ti-lan-teis-sa lää-kä-rin tai muun sai-raa-la hen-k
+i-lö-kun-nan löy-tä-mi-nen nopeasti[[]]
+ []
+
+[12] [13] <ikeaheatmap.png, id=46, 803.0pt x 601.24625pt>
+File: ikeaheatmap.png Graphic file (type png)
+
+<use ikeaheatmap.png>
+Package pdftex.def Info: ikeaheatmap.png used on input line 36.
+(pdftex.def)             Requested size: 271.78348pt x 203.50359pt.
+ [14]) (luku_tasmamarkkinointi.tex [15 <./ikeaheatmap.png>]) (luku_yhteenveto.t
+ex) [16] (main.bbl [17
 
 ]
 LaTeX Font Info:    Try loading font information for T1+aett on input line 84.
 
 ("C:\Miktex 2.9\tex\latex\ae\t1aett.fd"
 File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
-)) [16]
+)
+Underfull \hbox (badness 10000) in paragraph at lines 110--114
+[]\T1/aer/m/n/12 Business in-si-der "the-se heat maps show how re-tai-lers trac
+k
+ []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--114
+\T1/aer/m/n/12 you as you shop".  $\T1/aett/m/n/12 http : / / www . businessins
+ider . com /$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--120
+[]\T1/aer/m/n/12 Business in-si-der "this heat map re-veals the sec-ret to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--120
+\T1/aer/m/n/12 ikea's sto-re de-sign".  $\T1/aett/m/n/12 http : / / www . busin
+essinsider . com /$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--120
+$\T1/aett/m/n/12 this-[]heat-[]map-[]reveals-[]the-[]secret-[]to-[]ikeas-[]stor
+e-[]design-[]2014-[]1 ? IR = T$\T1/aer/m/n/12 .
+ []
+
+) [18] 
 AED: lastpage setting LastPage
 (main.aux) ) 
 Here is how much of TeX's memory you used:
- 5709 strings out of 493634
- 70235 string characters out of 3135239
- 145858 words of memory out of 3000000
- 8917 multiletter control sequences out of 15000+200000
+ 5733 strings out of 493634
+ 70558 string characters out of 3135239
+ 146915 words of memory out of 3000000
+ 8939 multiletter control sequences out of 15000+200000
  30487 words of font info for 67 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 34i,10n,43p,1742b,343s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 34i,10n,43p,1743b,361s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Miktex 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Miktex
  2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Miktex 2.9/fonts/type1/public
 /amsfonts/cm/cmsy8.pfb><C:/Miktex 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb
 ><C:/Miktex 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (16 pages, 121283 bytes).
+Output written on main.pdf (18 pages, 219396 bytes).
 PDF statistics:
- 74 PDF objects out of 1000 (max. 8388607)
+ 81 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
