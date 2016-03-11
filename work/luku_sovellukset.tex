@@ -30,23 +30,25 @@ Toinen kuluttajasovellus, joka toimii parhaiten vastakkaisessa tilanteessa kuin 
 
 Kolmas sovellus sisätilapaikannuksen kaupan alan kuluttajasovelluksissa on nopeimman kassajonon valitseminen ja arvioidun jonotus ajan määrittäminen. Tämä sovellus vaatii jo hieman enemmän infrastruktuuria kuin edellä mainitut joissa riittää pelkkä puhelin. Tämän sovelluksen voisi toteuttaa siten että, ostoskärryissä ja koreissa voisi olla RFID lukijat jotka lukevat tuotteissa olevia RFID tunnisteita ja määrittää siten kuinka monta tuotetta asiakkaalla on, toinen tapa olisi viivakoodin lukija jolle tuotetta näytetään aina kun se laitetaan kärryyn. Kumpikin on toki hieman haasteellinen varsinkin ostoskorien osalta joissa ei voi olla kovin suurta virtalähdettä siten että korista ei tule painava. Kolmas tapa voisi olla tutkia asiakkaiden(kärryjen tai korien) liikettä. Asiakkaan pysähtyesä hyllyn kohdalla ja hyllystä tuotteen kadotessa voidaan olettaa, että asiakas on ottanut sen. Tässä tavassa on myös omat heikkoutensa. Jos vierekkäin on monta asiakasta on vaikea arvata mille asiakkaalle mikäkin tuote on mennyt tai jos asiakas jättääkin tuotteen jonnekkin sille kuulumattomalle paikalle tuoteiden määrän arviointi on vaikeaa. Tällä tavalla voidaan kuitenkin saada arvio tuotteiden määrästä ja se on käytännöllisempi toteuttaa, kuin edellä mainitut tavat. Kun tiedossa on asiakkailla olevat tuotteet ja heidän sijaintinsa voidaan arvioida kuinka kauan niiden lastaaminen kassalle, maksaminen ja purku kestää.
   
-Edellä mainitut sovellukset ovat olleet kuluttajasovelluksia. Seuraavaksi käsitellään sovelluksia joita käytetään kaupoissa mittaamaan asiakkaiden käyttäytymistä ja siten parantaa kaupan järjestelyitä vastaamaan ja muokkaamaan tätä käytöstä. Kaupat ovat nykyään kiinnostuneita siitä kuinka asiakkaat liikkuvat kaupan tiloissa, eikä vain siitä mitä he ostavat\cite{heat}. Sisätilapaikannus tarjoaa tämän toteuttamiseksi sopivia teknologioita. Sisätilapaikannuksella voidaan seurata asiakkaiden liikkeitä kaupassa, ja näistä liikkeistä voidaan muodostaa lämpökartta.
+Edellä mainitut sovellukset ovat olleet kuluttajasovelluksia. Seuraavaksi käsitellään sovelluksia joita käytetään kaupoissa mittaamaan asiakkaiden käyttäytymistä ja siten parantaa kaupan järjestelyitä vastaamaan ja muokkaamaan tätä käytöstä. Kaupat ovat nykyään kiinnostuneita siitä kuinka asiakkaat liikkuvat kaupan tiloissa, eikä vain siitä mitä he ostavat\cite{heat}. Sisätilapaikannus tarjoaa tämän teidon keräämiseksi sopivia teknologioita. Sisätilapaikannuksella voidaan seurata asiakkaiden liikkeitä kaupassa, ja näistä liikkeistä voidaan muodostaa lämpökartta. Lämpökartoissa alue on värjätty sitä punaisemmaksi, mitä enemmän sillä kohdalla on ollut liikettä. Siniset alueet ovat alueita joissa ei ole käynyt juuri kukaan. 
 \begin{figure}[htpb]
     \centering
     \includegraphics[width=0.6\textwidth]{ikeaheatmap.png}
     \caption{Lämpökartta Ikea tavaratalossa käyneiden asiakkaiden kulkureiteistä\cite{ikea}}
     \label{ikea}
 \end{figure}
-Lämpökartoista nähdään missä asiakkaat liikkuvat eniten. tämän tiedon pohjalta kaupat voivat järjestellä suositut ja epäsuositut ja halvat ja kalliit tuotteet optimaalisesti\cite{heat}.
+Näin lämpökartoista nähdään missä asiakkaat liikkuvat eniten tutkimalla kartan väritystä. Tämän tiedon pohjalta kaupat voivat järjestellä suositut ja epäsuositut ja halvat ja kalliit tuotteet optimaalisesti\cite{heat}.
 Kuvassa \ref{ikea} nähdään, että käytännössä kaikki Ikeassa käyneet kulkivat pääkäytävää, joten sen varrelle on hyvä sijoittaa esimerkiksi sopivia tavaroita heräteostoksiksi.
-%mitä kosketaan muttei osteta????? ehkä!? vähä huono
-%heat map
+Lämpökartoista voidaan myös selvittää mitkä tuotteet ovat olleet kiinnostavia, mutta niitä ei ole kuitenkaan ostettu. Tämä onnistuu siten, että tutkitaan tuotteen sijaintia lämpökartalla ja samalla tutkitaan tuotteen myyntiä. Tuotteet jotka ovat lämpökartalla punaisella alueella mutta niiden myynti on kuitenkin huonoa, saattavat olla liian kalliita asiakkaiden näkökulmasta ja niiden hinnoittelua voisi olla syytä harkita uudelleen.
+
 %mainonta
 Kolmas sisätilapaikannuksen kaupan alan sovellusten ryhmä on markkinointi ja mainonta. Tätä aihetta käsitellään seuraavassa luvussa.
 
-\subsection{Sovellukset tulevaisuudessa}
+\subsection{Yhteenveto ja tulevaisuus}
+
+
 %killeri appi
 %selvästi vaikeampi arvioida suuren vaihtoehtojen määrän takia.
-\subsection{Yhteenveto}
+
 
 
