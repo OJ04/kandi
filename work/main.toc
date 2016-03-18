@@ -4,23 +4,21 @@
 \select@language {finnish}
 \contentsline {section}{\numberline {1}Johdanto}{4}
 \contentsline {section}{\numberline {2}Sis\IeC {\"a}tilapaikannuksen teknologiat}{4}
-\contentsline {subsection}{\numberline {2.1}WLAN}{4}
-\contentsline {subsection}{\numberline {2.2}Bluetooth Low Energy}{5}
+\contentsline {subsection}{\numberline {2.1}WLAN}{5}
+\contentsline {subsection}{\numberline {2.2}Bluetooth Low Energy}{6}
 \contentsline {subsection}{\numberline {2.3}RFID}{6}
 \contentsline {subsection}{\numberline {2.4}VLC}{7}
 \contentsline {subsection}{\numberline {2.5}Liikeanturit}{8}
 \contentsline {subsection}{\numberline {2.6}Magneettianturi}{9}
-\contentsline {subsection}{\numberline {2.7}Yhteenveto ja tulevaisuus}{9}
+\contentsline {subsection}{\numberline {2.7}Yhteenveto ja tulevaisuus}{10}
 \contentsline {section}{\numberline {3}Sis\IeC {\"a}tilapaikannuksen sovellukset}{13}
 \contentsline {subsection}{\numberline {3.1}Sovellukset yleisesti}{13}
 \contentsline {subsection}{\numberline {3.2}Kaupan alan sovellukset}{14}
-\contentsline {subsection}{\numberline {3.3}Sovellukset tulevaisuudessa}{16}
-\contentsline {subsection}{\numberline {3.4}Yhteenveto}{16}
+\contentsline {subsection}{\numberline {3.3}Yhteenveto ja tulevaisuus}{16}
 \contentsline {section}{\numberline {4}Sis\IeC {\"a}tilapaikannus t\IeC {\"a}sm\IeC {\"a}markkinoinnissa}{16}
 \contentsline {subsection}{\numberline {4.1}T\IeC {\"a}sm\IeC {\"a}markkinointi}{16}
-\contentsline {subsection}{\numberline {4.2}Vaatimukset paikannusteknologioille}{17}
-\contentsline {subsection}{\numberline {4.3}Sis\IeC {\"a}tilapaikannuksen hy\IeC {\"o}dyt markkinoinnissa}{17}
-\contentsline {subsection}{\numberline {4.4}Sis\IeC {\"a}tilapaikannuksen ja markkinoinnin tulevaisuus}{18}
-\contentsline {subsection}{\numberline {4.5}Yhteenveto}{18}
-\contentsline {section}{\numberline {5}Yhteenveto}{18}
-\contentsline {section}{L\IeC {\"a}hteet}{19}
+\contentsline {subsection}{\numberline {4.2}Sovellukset ja vaatimukset}{17}
+\contentsline {subsection}{\numberline {4.3}Sis\IeC {\"a}tilapaikannuksen hy\IeC {\"o}dyt markkinoinnissa}{18}
+\contentsline {subsection}{\numberline {4.4}Yhteenveto ja tulevaisuus}{19}
+\contentsline {section}{\numberline {5}Yhteenveto}{19}
+\contentsline {section}{L\IeC {\"a}hteet}{20}

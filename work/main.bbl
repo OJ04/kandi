@@ -6,6 +6,12 @@ Kevin Curran, Eoghan Furey, Tom Lunney, Jose Santos, Derek Woods, and Aiden
 \newblock An evaluation of indoor location determination technologies.
 \newblock {\em Journal of Location Based Services}, 5(2):61--78, 2011.
 
+\bibitem{geo}
+Geomarketing verkkosivut.
+\newblock
+  \url{http://www.geomarketing.com/geo-targeted-mobile-ad-revenues-to-reach-18-2-billion-by-2019}.
+\newblock viitattu: 2016-03-17.
+
 \bibitem{B}
 Yanying Gu, A.~Lo, and I.~Niemegeers.
 \newblock A survey of indoor positioning systems for wireless personal
@@ -22,6 +28,12 @@ Hui Liu, H.~Darabi, P.~Banerjee, and Jing Liu.
 \newblock Survey of wireless indoor positioning techniques and systems.
 \newblock {\em Systems, Man, and Cybernetics, Part C: Applications and Reviews,
   IEEE Transactions on}, 37(6):1067--1080, Nov 2007.
+
+\bibitem{reuters}
+Reuters artikkeli: Sisätilapaikannuksen markkinat.
+\newblock
+  \url{http://www.reuters.com/article/research-and-markets-idUSnBw225342a+100+BSW20150122}.
+\newblock viitattu: 2016-03-17.
 
 \bibitem{G}
 Binghao Li, James Salter, Andrew~G. Dempster, and Chris Rizos.
@@ -118,13 +130,19 @@ Business insider "this heat map reveals the secret to ikea's store design".
   \url{http://www.businessinsider.com/this-heat-map-reveals-the-secret-to-ikeas-store-design-2014-1?IR=T}.
 \newblock viitattu: 2016-03-1.
 
+\bibitem{press}
+Bia/kelsey lehdistötiedote.
+\newblock
+  \url{http://www.biakelsey.com/Company/Press-Releases/150422-Mobile-Will-Grab-11.5-Percent-of-Total-Local-Media-Revenues-by-2019.asp}.
+\newblock viitattu: 2016-03-17.
+
 \bibitem{tasma}
 Petteri Järvinen.
 \newblock Täsmämarkkinointi on tulevaisuutta.
 \newblock {\em Tietokone 8/00}, 2001.
 
 \bibitem{siwa}
-Siwa opiskelija alennukset".
+Siwa opiskelija alennukset.
 \newblock
   \url{http://www.siwa.fi/fi/menossa-nyt/siwaopiskelija/?gclid=Cj0KEQiAsP-2BRCFl4Lb2NTJttEBEiQAmj2tbdKEzK3OHrajeFlBmQRY--Qi1xUM5W_V4pR73CP8AewaAvwg8P8HAQ}.
 \newblock viitattu: 2016-03-1.
