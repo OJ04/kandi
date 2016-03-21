@@ -16,7 +16,7 @@
 \contentsline {subsection}{\numberline {3.2}Kaupan alan sovellukset}{14}
 \contentsline {subsection}{\numberline {3.3}Yhteenveto ja tulevaisuus}{16}
 \contentsline {section}{\numberline {4}Sis\IeC {\"a}tilapaikannus t\IeC {\"a}sm\IeC {\"a}markkinoinnissa}{16}
-\contentsline {subsection}{\numberline {4.1}T\IeC {\"a}sm\IeC {\"a}markkinointi}{16}
+\contentsline {subsection}{\numberline {4.1}T\IeC {\"a}sm\IeC {\"a}markkinointi}{17}
 \contentsline {subsection}{\numberline {4.2}Sovellukset ja vaatimukset}{17}
 \contentsline {subsection}{\numberline {4.3}Sis\IeC {\"a}tilapaikannuksen hy\IeC {\"o}dyt markkinoinnissa}{18}
 \contentsline {subsection}{\numberline {4.4}Yhteenveto ja tulevaisuus}{19}
